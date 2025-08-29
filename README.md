@@ -12,4 +12,4 @@ Inspired by classic stacking mechanics, this project focuses on smooth gameplay,
 - **Particle effects** for perfect alignments  
 
 ## 📸 Demo
-🎥 [YouTube Demo](https://youtu.be/PIf5rIx2rYc)
+🎥 [YouTube Demo](https://youtu.be/xvdMsLIokKU)
