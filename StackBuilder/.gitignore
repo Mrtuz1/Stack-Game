@@ -1,0 +1,99 @@
+# Unity Git Ignore Template (Optimized for Large Files)
+# Place at the root of your Unity project directory
+# Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+# =======================
+# System / Temp Files
+# =======================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.log
+*.tmp
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+mono_crash.*
+
+# =======================
+# Asset / Package Files
+# =======================
+*.blend1
+*.blend1.meta
+*.unitypackage
+*.unitypackage.meta
+*.apk
+*.aab
+*.app
+*.so
+*.dll
+*.dylib
+*.jar
+*.obb
+*.lib
+
+# =======================
+# IDE / Editor Files
+# =======================
+.vs/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.DotSettings.user
+ExportedObj/
+.consulo/
+
+# =======================
+# Crashlytics
+# =======================
+crashlytics-build.properties
+
+# =======================
+# TestRunner
+# =======================
+InitTestScene*.unity*
+
+# =======================
+# Addressables
+# =======================
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# =======================
+# Visual Scripting
+# =======================
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers*
+
+# =======================
+# Auto-generated Play Mode Test Scenes
+# =======================
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# =======================
+# Large / Build Artifacts
+# =======================
+*.zip
+*.7z
+*.tar
+*.gz
+*.bak
+*.tmp
+*.cache
+*.assetbundle
